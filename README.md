@@ -20,7 +20,7 @@ limitations under the License.
 
 # Boston House Prices
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).
 
@@ -244,8 +244,8 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## See Also
 
--   [`@stdlib/datasets/harrison-boston-house-prices`][@stdlib/datasets/harrison-boston-house-prices]: A dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).
--   [`@stdlib/datasets/pace-boston-house-prices`][@stdlib/datasets/pace-boston-house-prices]: A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).
+-   <span class="package-name">[`@stdlib/datasets/harrison-boston-house-prices`][@stdlib/datasets/harrison-boston-house-prices]</span><span class="delimiter">: </span><span class="description">A dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).</span>
+-   <span class="package-name">[`@stdlib/datasets/pace-boston-house-prices`][@stdlib/datasets/pace-boston-house-prices]</span><span class="delimiter">: </span><span class="description">A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).</span>
 
 </section>
 
@@ -291,8 +291,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-harrison-boston-house-prices-corrected/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-harrison-boston-house-prices-corrected?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-harrison-boston-house-prices-corrected.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/datasets-harrison-boston-house-prices-corrected/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
