@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/datasets-harrison-boston-house-prices-corrected",
+  "version": "0.0.0",
+  "description": "A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-harrison-boston-house-prices-corrected.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "house",
+    "housing",
+    "prices",
+    "value",
+    "boston",
+    "stats",
+    "statistics",
+    "linear regression",
+    "prediction"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
