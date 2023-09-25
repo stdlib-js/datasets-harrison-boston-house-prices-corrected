@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@deno/mod.js';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@v0.1.0-deno/mod.js';
 ```
 
 #### dataset()
@@ -119,7 +119,7 @@ var data = dataset();
 
 ```javascript
 import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@deno/mod.js';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@deno/mod.js';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@v0.1.0-deno/mod.js';
 
 var data;
 var plot;
