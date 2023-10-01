@@ -1,5 +1,24 @@
-"use strict";var s=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var t=s(function(f,a){
-var i=require("path").resolve,n=require('@stdlib/fs-read-json/dist').sync,o=i(__dirname,"..","data","data.json"),u={encoding:"utf8"};function v(){var r=n(o,u);if(r instanceof Error)throw r;return r}a.exports=v
-});var d=t();module.exports=d;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).
+*
+* @module @stdlib/datasets-harrison-boston-house-prices-corrected
+*
+* @example
+* var dataset = require( '@stdlib/datasets-harrison-boston-house-prices-corrected' );
+*
+* var data = dataset();
+* // returns [ {...}, {...}, ... ]
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
