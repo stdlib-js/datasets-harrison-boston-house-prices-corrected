@@ -35,14 +35,31 @@ limitations under the License.
 
 > A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/datasets-harrison-boston-house-prices-corrected
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@deno/mod.js';
+var dataset = require( '@stdlib/datasets-harrison-boston-house-prices-corrected' );
 ```
 
 #### dataset()
@@ -118,8 +135,8 @@ var data = dataset();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@deno/mod.js';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-harrison-boston-house-prices-corrected@deno/mod.js';
+var Plot = require( '@stdlib/plot' );
+var dataset = require( '@stdlib/datasets-harrison-boston-house-prices-corrected' );
 
 var data;
 var plot;
@@ -156,7 +173,69 @@ console.log( plot.render( 'html' ) );
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/datasets-harrison-boston-house-prices-corrected-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: harrison-boston-house-prices-corrected [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+         --format fmt          Output format: 'csv' or 'ndjson'.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="notes">
+
+### Notes
+
+-   The CLI supports two output formats: comma-separated values ([CSV][csv]) and newline-delimited JSON ([NDJSON][ndjson]). The default output format is [CSV][csv].
+
+</section>
+
+<!-- /.notes -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ harrison-boston-house-prices-corrected
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 * * *
 
@@ -203,7 +282,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -276,9 +355,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/harrison-boston-house-prices]: https://github.com/stdlib-js/datasets-harrison-boston-house-prices/tree/deno
+[@stdlib/datasets/harrison-boston-house-prices]: https://github.com/stdlib-js/datasets-harrison-boston-house-prices
 
-[@stdlib/datasets/pace-boston-house-prices]: https://github.com/stdlib-js/datasets-pace-boston-house-prices/tree/deno
+[@stdlib/datasets/pace-boston-house-prices]: https://github.com/stdlib-js/datasets-pace-boston-house-prices
 
 <!-- </related-links> -->
 
