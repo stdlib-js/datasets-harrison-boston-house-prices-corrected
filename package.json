@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-harrison-boston-house-prices-corrected",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A (corrected) dataset derived from information collected by the US Census Service concerning housing in Boston, Massachusetts (1978).",
   "license": "Apache-2.0",
   "author": {
@@ -42,20 +42,20 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/cli-ctor": "^0.2.1",
-    "@stdlib/fs-read-file": "^0.2.1",
-    "@stdlib/fs-read-json": "^0.2.1",
-    "@stdlib/streams-node-stdout": "^0.2.1",
-    "@stdlib/utils-copy": "^0.2.1"
+    "@stdlib/cli-ctor": "^0.2.2",
+    "@stdlib/fs-read-file": "^0.2.2",
+    "@stdlib/fs-read-json": "^0.2.2",
+    "@stdlib/streams-node-stdout": "^0.2.2",
+    "@stdlib/utils-copy": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-array": "^0.2.1",
-    "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/assert-is-plain-object-array": "^0.2.1",
-    "@stdlib/assert-is-windows": "^0.2.1",
+    "@stdlib/assert-is-array": "^0.2.2",
+    "@stdlib/assert-is-browser": "^0.2.2",
+    "@stdlib/assert-is-plain-object-array": "^0.2.2",
+    "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/plot": "^0.2.1",
-    "@stdlib/process-exec-path": "^0.2.1",
-    "@stdlib/regexp-eol": "^0.2.1",
+    "@stdlib/process-exec-path": "^0.2.2",
+    "@stdlib/regexp-eol": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
